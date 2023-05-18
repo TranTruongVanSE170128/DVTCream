@@ -1,0 +1,141 @@
+* {
+    margin: 0 0;
+}
+
+header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: 0 0 5px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.logo_DVT img{
+    height: 100px;
+    width: 350px;
+}
+
+.header_nav {
+    padding-left: 0;
+}
+
+.header_nav ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+
+.header_nav ul li a {
+    color: rgb(22, 128, 199);
+    text-decoration: none;
+    font-size: larger;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+
+
+.header_nav ul li a:hover {
+    background-color: rgb(22, 128, 199);
+    color: white;
+}
+
+
+.search_box button {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search_box button:hover {
+    background-color: rgb(22, 128, 199);
+}
+
+.search_box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.icon_search img {
+    
+    width: 20px;
+    height: 20px;
+}
+
+.search_box input {
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 0 15px 0 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(100, 170, 216);
+}
+
+#text_input {
+    color: white;
+
+}
+
+#text_input::placeholder {
+    color: white;
+}
+
+.cart_login {
+    display: flex;
+}
+
+.cart {
+    height: 55px;
+    width: 55px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.user {
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.banner {
+    padding: 120px 30px 20px 30px;
+}
+
+.banner img {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+}

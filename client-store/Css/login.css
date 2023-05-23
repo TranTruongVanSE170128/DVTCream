@@ -1,19 +1,26 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 1000px;
-    width: 100%;
-    background: url(../assets/Thiết\ kế\ chưa\ có\ tên.png)no-repeat;
-    background-size: cover;
     font-family: Roboto, Arial;
 }
+
+.page {
+    inset: 0;
+    position: absolute;
+    background: url(../assets/icecream.jpg)no-repeat;
+    background-size: cover;
+}
+
 
 .icon {
     width: 6%;
 }
+
+/* .blur {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    inset: 0;
+} */
 
 .form-box {
     position: relative;
@@ -22,14 +29,16 @@ body {
     align-items: center;
     width: 450px;
     height: 550px;
-    background-color: rgba(22, 128, 199, 0.8);
+    background-color: rgb(218,24,163, 0.8);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 12px;
-    background-image: g;
+    margin-inline: auto;
+    margin-top: 220px;
 }
-h2{
+
+h2 {
     font-size: 50px;
-    color:aliceblue;
+    color: aliceblue;
     text-align: center;
 
 }
@@ -44,7 +53,8 @@ h2{
     width: 310px;
     border-bottom: 2px solid white;
 }
-.input label{
+
+.input label {
     position: absolute;
     color: white;
     top: 10%;
@@ -55,11 +65,13 @@ h2{
     transition: 0.5s;
 
 }
-input:focus ~ label,
-input:valid ~ label{
+
+input:focus~label,
+input:valid~label {
     top: -20px;
 }
-.input input{
+
+.input input {
     width: 100%;
     height: 20px;
     background: transparent;
@@ -70,33 +82,35 @@ input:valid ~ label{
     color: white;
 }
 
-.icon{
+.icon {
     position: absolute;
     right: 8px;
-    color:white;
+    color: white;
     top: -10px;
 }
 
-.remember{
+.remember {
     margin: -15px 0 15px;
     color: white;
     display: flex;
     justify-content: center;
 
 }
-.remember label input{
+
+.remember label input {
     margin-right: 3px;
 }
 
-.remember a{
+.remember a {
     color: white;
     text-decoration: none;
 }
 
-.remember label a:hover{
+.remember label a:hover {
     text-decoration: underline;
 }
-.register-button{
+
+.register-button {
     width: 100%;
     height: 40px;
     border-radius: 40px;
@@ -109,11 +123,12 @@ input:valid ~ label{
     padding: 10px;
 }
 
-.register-button:hover{
-    background-color: rgb(23, 166, 248);
+.register-button:hover {
+    background-color: rgb(218,24,163);
     color: white;
-} 
-.login-button{
+}
+
+.login-button {
     width: 100%;
     height: 40px;
     border-radius: 40px;
@@ -124,40 +139,43 @@ input:valid ~ label{
     font-size: 20px;
     font-weight: 600;
 }
-.login-button:hover{
+
+.login-button:hover {
     /* opacity: 0.7;
      */
-     background-color: rgb(23, 166, 248);
-     color: white;
+    background-color: rgb(218,24,163);
+    color: white;
 }
 
-.register{
+.register {
     font-size: 20px;
     color: white;
     text-align: center;
     margin-top: 10px;
 
-   
+
 }
-.register p a{
+
+.register p a {
     text-decoration: none;
     color: white;
     font-weight: 600;
     margin-left: 10px;
 }
 
-.register p a:hover{
+.register p a:hover {
     text-decoration: underline;
 }
 
-.register{
+.register {
     display: flex;
     flex-direction: row;
     justify-items: center;
     align-items: center;
 
 }
-.login2-button{
+
+.login2-button {
     width: 40%;
     height: 40px;
     border-radius: 40px;
@@ -169,14 +187,13 @@ input:valid ~ label{
     font-weight: 600;
 }
 
-.login2-button:hover{
+.login2-button:hover {
     /* opacity: 0.7;
      */
-     background-color: rgb(23, 166, 248);
-     color: white;
+    background-color: rgb(218,24,163);
+    color: white;
 }
 
-.now{
+.now {
     margin-top: -10px;
 }
-

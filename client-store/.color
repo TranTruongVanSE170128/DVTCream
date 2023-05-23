@@ -1,0 +1,20 @@
+'nft-dark': '#24252D',
+        'nft-gray-1': '#E3E1E3',
+        'nft-gray-2': '#888888',
+        'nft-gray-3': '#4F4F4F',
+        'nft-black-1': '#2D2E36',
+        'nft-black-2': '#1B1A21',
+        'nft-black-3': '#2A2D3A',
+        'nft-black-4': '#24252D',
+
+'nft-red-violet': '#DA18A3',
+
+.nft-gradient {
+  background: linear-gradient(
+    101.12deg,
+    #eb1484 27.35%,
+    #c91cc3 99.99%,
+    #c81cc5 100%,
+    #c81cc5 100%
+  );
+}

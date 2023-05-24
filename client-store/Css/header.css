@@ -191,12 +191,13 @@ header {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     padding: 0 150px;
+    color:white
 }
 
 .product {
     background-color: inherit;
     text-align: center;
-    background-color: white;
+    background-color: #2D2E36;
     flex-direction: column;
     border-radius: 20px;
     overflow: hidden;
@@ -209,7 +210,7 @@ header {
 }
 
 .product:hover .name_product span {
-    color: #105F94;
+    color: #DA18A3;
 }
 
 .name_product {
@@ -240,7 +241,7 @@ header {
     aspect-ratio: 1/1;
     position: relative;
     overflow: hidden;
-    border-bottom: 1px solid #e5e5e5;
+    /* border-bottom: 1px solid #e5e5e5; */
 }
 
 .product_img img {

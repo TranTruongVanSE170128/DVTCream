@@ -1,20 +1,6 @@
-'nft-dark': '#2A303C',
-        'nft-gray-1': '#E3E1E3',
-        'nft-gray-2': '#888888',
-        'nft-gray-3': '#191D24',
-        'nft-black-1': '#2D2E36',
-        'nft-black-2': '#1B1A21',
-        'nft-black-3': '#2A2D3A',
-        'nft-black-4': '#2A303C',
 
-'nft-red-violet': '#D926AA',
-
-.nft-gradient {
-  background: linear-gradient(
-    101.12deg,
-    #D926AA 27.35%,
-    #c91cc3 99.99%,
-    #c81cc5 100%,
-    #c81cc5 100%
-  );
-}
+Chỉnh sửa lại màu
+-màu xám :#2a303c;
+-màu đen:"#1b1a21"
+-màu vàng:"#fad56a"
+-màu trắng:"#ffffff"
